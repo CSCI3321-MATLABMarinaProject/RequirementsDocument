@@ -1,0 +1,16 @@
+Use Case 1
+Name: View Mobile Website
+
+Actors: Visitor
+
+Description: The user will be able to view the website on their mobile device. The user can access the different pages of the website by using the “Menu” button and selecting the page they would like to access. The user will also have access to downloading PDF files and watching videos from YouTube directly through the website.
+
+Use Case 2
+Name: Change Screen Orientation
+
+Actors: Visitor
+
+Description The user will be able to change the orientation of the website on their desktop computer, The user will be able to change the size of their browser window, which will promptly change the orientation of the website. If the user makes the website smaller, it will take the look of the mobile version. If the user makes the website bigger, it will take the look of the desktop version. All components and content of the website stay the same between both versions.
+
+System Sequence Diagram
+** Will upload when I get home; forgot to move the image file to flashdrive.
