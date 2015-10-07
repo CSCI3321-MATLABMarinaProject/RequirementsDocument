@@ -6,11 +6,12 @@ Actors: Visitor
 Description: The user will be able to view the website on their mobile device. The user can access the different pages of the website by using the “Menu” button and selecting the page they would like to access. The user will also have access to downloading PDF files and watching videos from YouTube directly through the website.
 
 Use Case 2
-Name: Change Screen Orientation
+Name: Update Web Pages
 
-Actors: Visitor
+Actors: Uploader/Owner/Editor (which is better?)
 
-Description The user will be able to change the orientation of the website on their desktop computer, The user will be able to change the size of their browser window, which will promptly change the orientation of the website. If the user makes the website smaller, it will take the look of the mobile version. If the user makes the website bigger, it will take the look of the desktop version. All components and content of the website stay the same between both versions.
+Description The editor of the website will be able to make changes to the website. The editor will use the File Transfer Protocol (FTP) and the Secure Shell (SSH) to upload files to the website and override existing files to save changes. The editor will be required to log in to the SSH and upload a HTML file through the FTP to save the changes to the website. Deleting and moving files can also be done in the FTP by the editor.
 
-System Sequence Diagram
-** Will upload when I get home; forgot to move the image file to flashdrive.
+System Sequence Diagram & Domain Model
+http://imgur.com/a/XTvXy
+
