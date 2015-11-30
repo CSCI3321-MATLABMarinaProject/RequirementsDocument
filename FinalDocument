@@ -1,0 +1,40 @@
+MATLAB Marina Mobile Redesign
+Jeremy Brown, Peter Drinovac, Erik Leon, Tyler Rutland
+
+FURPS Requirements Analysis
+Functional Requirements 
+
+Features
+Same Content of Current MATLAB Marina Website
+Responsive Layout
+Mobile Layout
+Responsive Collapsible Navigation
+Embedded Videos
+
+Capabilities 
+The system will respond to viewing environment. MATLAB Marina will now be responsive to varying screen sizes; the layout and content will adjust based on the screen size of the accessing medium. Layout of each page will ensure that critical content remains at the fore when screen size is limited, while non-critical content will be hidden or pushed to the bottom of the page. The purpose of this is to allow the illusion of a mobile website while having all the same content and page links as the desktop version.
+
+Non-Functional Requirements
+
+Usability 
+Compared to designing a system tailored specifically to mobile devices, as with a mobile app, responsive website will offer one unified experience between large and small-screen devices. This ensures availability to all students with a web-enabled device. Additionally, it allows users to access the same page with all the same content on any device without any change in the URL address.
+
+Reliability
+The website will be hosted on an Armstrong State University server, the reliability of which does not fall under the purview of this project.
+
+Performance
+The website will utilize asynchronous loading of content to enable quick, seamless navigation between pages. Pages have been tested to load between 0.1 and 0.5 seconds, depending on the speed of the user's network. After accessing the home page, all other pages will be loaded quicker as a result of changing just a part of the webpage.
+
+Supportability
+The structure of the website will allow for updates and additions of content by non-technical users. 
+
+Use Cases
+Use Case 1
+Name: View Mobile Website
+Actors: Visitor
+Description: The user will be able to view the website on their mobile device. The user can access the different pages of the website by using the “Menu” button and selecting the page they would like to access from the collapsable navigation menu. The user will also have access to downloading PDF files and watching videos from YouTube directly through the website. If the user has access to change the browser's width, the user will be able to change between the desktop and mobile versions seamlessly.
+
+Use Case 2
+Name: Update Web Pages
+Actors: Administrator
+Description: The administrator of the website will be able to make changes to the website. The administrator will use the File Transfer Protocol (FTP) and the Secure Shell (SSH) to upload files to the website and override existing files to save changes. The editor will be required to log in to the SSH and upload a HTML file through the FTP to save the changes to the website. Deleting and moving files can also be done in the FTP by the editor.
